@@ -1,0 +1,11 @@
+# Civ6 mod files must ship with CRLF line endings, regardless of the
+# machine's git settings. Text is normalized to LF inside the repo (so
+# diffs work) but always checked out / deployed as CRLF.
+* text=auto
+*.sql     text eol=crlf
+*.lua     text eol=crlf
+*.xml     text eol=crlf
+*.modinfo text eol=crlf
+*.dep     text eol=crlf
+*.artdef  text eol=crlf
+*.txt     text eol=crlf

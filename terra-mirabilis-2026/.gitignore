@@ -1,0 +1,8 @@
+# Compiled art assets (420MB, never edited for SQL bug-fixing) — lives only in the game's Mods folder
+Platforms/
+*.blp
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini

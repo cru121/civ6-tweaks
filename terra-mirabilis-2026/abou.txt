@@ -1,0 +1,158 @@
+BARRIER REEF
+Two tile natural wonder. Yields +3 Food, +1 Gold, and +2 Science. Improved sea resources yield +1 Gold for any Civilization that owns at least one of these tiles.
+
+BARRINGER CRATER
+One tile natural wonder. Yields +3 Science and +2 Gold. Receive +20% Production toward Space Race projects in the City that owns this tile. Fishing Boats provide +1 Gold on outgoing international Trade Routes from their cities for any Civilization that owns this tile.
+
+BIOLUMINESCENT BAY
+One tile natural wonder. Yields +2 Science, +2 Culture, and +1 Gold. Fishing Boats yield +1 Science for any Civilization that owns this tile.
+
+CERRO DE POTOSI
+One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 Production and +1 Gold. International Trade Routes from the City that owns this tile yield +4 Gold.
+
+CHOCOLATE HILLS (Gathering Storm)
+Four tile natural wonder. Yields +2 Culture, +2 Production and +1 Food. Any Civilization that owns at least one of these tiles exerts +25% Tourism toward other Civilizations with whom they have a Trade Route.
+
+CLIFFS OF DOVER
+Two tile natural wonder. Appears as Cliffs. Yields +3 Culture, +1 Food, and +1 Gold. Harbors receive minor adjacency bonuses from Cliffs for any Civilization that owns at least one of these tiles.
+
+CRATER LAKE
+One tile natural wonder. Appears as a Lake and provides fresh water. Provides fresh water. Yields +4 Faith and +1 Science. May purchase any Building with Faith in the City that owns this tile.
+
+DALLOL
+One tile natural wonder. Provides +2 Science, +2 Production and +1 Gold. Grants a free copy of the Sylvite luxury resource (not tradeable), which provides +6 Amenities, to any Civilization that owns this tile.
+
+DEAD SEA
+Two tile natural wonder. Appears as a Lake. Yields +2 Faith, +2 Culture, and +1 Gold. Units may heal an additional 10 HP when Fortified for any Civilization that owns at least one of these tiles.
+
+DELICATE ARCH (Rise and Fall)
+One tile impassable natural wonder. Adjacent plots yield +1 Culture and +1 Gold. Plots are 20% cheaper to purchase for any Civilization that owns this tile.
+
+EVEREST
+Three tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 Faith. Religious units trained in any City that owns at least one of these tiles ignore Movement penalties on Hills and receive +1 additional spread charge.
+
+EYE OF THE SAHARA (Rise and Fall)
+Three tile natural wonder. Yields +2 Production, +2 Science, and +1 Gold. Any Civilization that owns at least one of these tiles receives +1 Era Score from Historic Moments if that Moment is usually worth at least +4 Era Score.
+
+EYJAFJALLAJOKULL (Vikings DLC)
+Two tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 Culture. Provides additional yields on eruption at the cost of Population and damage to infrastructure. Always active. Adjacent plots yield +1 Culture and +1 Food. Specialty Districts constructed on Tundr or Snow terrain yield +1 Food for any Civilization that owns this tile.
+
+FOUNTAIN OF YOUTH (Gran Colombia Maya DLC)
+One tile natural wonder. Provides fresh water. Yields +3 and +2 Faith. Land combat units that enter this tile receive the ability 'Water of Life', which grants +10 Healing in any territory.
+
+GALAPAGOS
+Two tile impassable natural wonder. Adjacent plots yield +2 Science. Grants a free copy of the Tortoise luxury resource (not tradeable), which provides +6 Amenities, to any Civilization that owns at least one of these tiles.
+
+GIANTS CAUSEWAY (Vikings DLC)
+Two tile impassable natural wonder. Adjacent plots yield +2 Culture. Land units trained in a City that owns at least one of these tiles start with a free Promotion.
+
+GOBUSTAN (Gathering Storm)
+Three tile natural wonder. Yields +3 Culture, +1 Production, and +1 Science. Improved sources of Oil accumulate 2 more resources per turn for any Civilization that owns at least one of these tiles.
+
+GRAND MESA
+One tile impassable natural wonder. Adjacent plots yield +1 Food and +1 Culture. Units ignore Movement penalties in Forest or Jungle for any Civilization that owns this tile.
+
+HA LONG BAY (Indonesia Khmer DLC)
+Two tile natural wonder. Yields +2 Culture, +2 Food and +1 Production. Harbors provide +2 Housing for any Civilization that owns at least one of these tiles.
+
+IK-KIL (Gathering Storm)
+One tile impassable natural wonder. Provides Fresh Water. Adjacent plots yield +1 Science, and +1 Faith. +15% Production toward Wonders for any Civilization that owns this tile.
+
+KAILASH
+One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 Faith and +1 Culture. Receive +1 Culture for every foreign City that follows the Religion of the Civilization that owns this tile.
+
+KILIMANJARO
+One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 Food. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active.Receive +1 Population in the City that owns this tile when a Specialty District is constructed.
+
+KRAKATOA (Gathering Storm)
+One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 Science. Provides additional yields on eruption at the cost of Population and damage to infrastructure. Always active. Any Civilization that owns this tile receives a free Eureka upon earning a Great Admiral.
+
+LAKE RETBA Rise and Fall)
+Two tile natural wonder. Appears as a Lake. Yields +2 Culture, +2 Gold, +1 Production. Any Civilization that owns at least one of these tiles receives +2 Gold for each unique copy of a Luxury resource that they own.
+
+LAKE VICTORIA
+Four tile natural wonder. Appears as a Lake and provides Fresh Water. Yields +3 Food and +1 Culture. Any Civilization that owns at least one of these tiles receives +15% Growth in Cities not on their original Capital's continent.
+
+LAKES OF OUNIANGA
+Two tile natural wonder. Provides fresh water. Yields +3 Food, +1 Culture, and +1 Gold. Oases provide major adjacency bonuses to Specialty Districts for any Civilization that owns at least one of these tiles.
+
+LENCOIS MARANHENSES
+Two tile natural wonder. Provides fresh water. Yields +2 Food, +3 Culture. Floodplains yield +1 Culture for any civilization that owns at least one of these tiles.
+
+LYSEFJORDEN (Vikings DLC)
+Three tile natural wonder. Yields +2 Culture, +2 Gold, +1 Production. Naval units trained in a City that owns at least one of these tiles start with a free Promotion.
+
+MATO TIPILA (Gathering Storm)
+One tile impassable natural wonder. Adjacent plots yield +1 Faith and +1 Production. Naturalists are 50% cheaper to purchase for any Civilization that owns this tile.
+
+MATTERHORN (Rise and Fall)
+One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 Culture to adjacent tiles. Land Units tile ignore Movement penalties on Hills, and receive +3 Combat Strength when fighting on them, for any Civilization that owns this tile.
+
+MOTLATSE CANYON
+Four tile impassable natural wonder. Adjacent plots yield +1 Culture and +1 Science. River tiles with Breathtaking appeal yield +1 Gold for any Civilization that owns at least one of these tiles.
+
+MOSI-OA-TUNYA
+One tile impassable natural wonder. Provides fresh water. Adjacent plots yield +2 Food. Improved bonus resources adjacent to a river provide +1 Food for the Civilization that owns this tile.
+
+OLD FAITHFUL
+One tile natural wonder. Yields +3 Science, +1 Faith, and +1 Gold. Campus districts trigger a culture bomb in any City. Double adjacency bonuses for Campus districts if their City has a National Park.
+
+NAMIB SAND SEA
+Three tile natural wonder. Yields +3 Culture and +2 Gold. Foreign Trade Routes that pass through your cities provide +1 Culture for any Civilization that owns at least one of these tiles.
+
+PAITITI (Gran Colombia Maya DLC)
+Three tile impassable natural wonder. Adjacent plots yield +2 Culture. Receive +100% Gold in any city that owns at least one of these tiles.
+
+PAMMUKALE (Gathering Storm)
+Two tile impassable natural wonder. Provies Fresh Water. Adjacent plots yield +1 Culture and +1 Gold. Regional buildings within Entertainment Complex or Waterpark districts provide +1 Amenity to cities within range for any Civilization that owns at least one of these tiles.
+
+PANTANAL
+Four tile natural wonder. Appears as Marsh. Provides +3 Food and +2 Culture. Marsh tiles provide standard adjacency bonuses for Specialty Districts for any Civilization that owns at least one of these tiles.
+
+PIOPIOTAHI
+Three tile impassable natural wonder. Adjacent plots yield +1 Culture and +1 Gold. Amenities provided by regional buildings extend 3 tiles further for any Civilization that owns at least one of these tiles.
+
+ROCK OF GIBRALTAR
+One tile impassable natural wonder. Adjacent plots yield +1 Food and +1 Gold. Encampments and Harbors receive +2 Great Person Points of their respective type in the City that owns this tile.
+
+RORAIMA (Rise and Fall)
+Four tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 Faith and +1 Science. Jungle does not diminish the appeal of adjacent plots for any Civilization that owns at least one of these tiles.
+
+SAHARA EL BEYDA (Gathering Storm)
+Four tile natural wonder. Yields +3 Gold, +1 Science, and +1 Culture. Cities are immune to damage from Dust Storms for any Civilization that owns at least one of these tiles.
+
+SALAR DE UYUNI
+Four tile natural wonder. Yields +2 Science, +1 Production, and +1 Gold. Grants a free copy of the Lithium luxury resource (not tradeable), which provides +6 Amenities, to any player that owns at least one of these tiles.
+
+SINAI
+One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 Faith. Holy Sites provide +1 Great Person Points toward Great Prophets for the player that owns this tile. Religious units trained in this City receive +10 Theological Combat Strength.
+
+SRI PADA
+One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 Food and +1 Faith. Religious units trained in the City that owns this tile receive Culture upon converting a City to their Religion for the first time.
+
+TORRES DEL PAINE
+Two tile impassable natural wonder. Doubles the terrain yields of adjacent tiles. Any City that owns at least one of these tiles may build one extra District than the Population would normally allow.
+
+TSINGY
+One tile impassable natural wonder. Adjacent plots yield +1 Culture and +1 Science. Theater districts trigger a culture bomb in any City. Double adjacency bonuses for Theater districts if their City has a National Park.
+
+UBSUNUR HOLLOW (Rise and Fall)
+Four tile natural wonder. Appears as Marsh. Yields +2 Faith, +1 Food, and +2 Production. Any Civilization that owns at least one of these tiles receives a free Inspiration upon earning a Great General.
+
+ULURU (Australia DLC)
+One tile impassable natural wonder. Adjacent plots yield +1 Culture and +1 Faith. Specialty Districts constructed on desert terrain yield +1 Food for any Civilization that owns this tile.
+
+VESUVIUS (Gathering Storm)
+One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 Production. Provides additional yields on eruption at the cost of Population and damage to infrastructure. Always active. Antiquity Sites yield +4 Culture, and Artifacts yield +2 Culture and +2 Tourism for any Civilization that owns this tile.
+
+VREDEFORT DOME
+Two tile natural wonder. Yields +2 Food, +2 Science, and +1 Culture. Farms provide +1 Food when adjacent to another Farm for any Civilization that owns at least one of these tiles.
+
+WULINGYUAN (Indonesia Khmer DLC)
+Two tile impassable natural wonder. Adjacent plots yield +2 Culture. Great Works of Writing yield +2 Culture and +50% Tourism for any Civilization that owns at least one of these tiles.
+
+YOSEMITE
+Two tile impassable natural wonder. Adjacent plots yield +1 Gold and +1 Science. Forest provides an additional +1 Appeal to adjacent plots for any Civilization that owns at least one of these tiles.
+
+ZHANGYE DANXIA (Rise and Fall)
+Three tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 Science. Commercial Hubs and Campus districts in a City that owns at least one of these tiles receive +2 Great Person Points of their respective type.

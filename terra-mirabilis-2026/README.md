@@ -111,12 +111,11 @@ Lua wonder generator + art *definitions*). The ~420 MB of **compiled art**
 it lives only in the packaged release and in the game's Mods folder. Release
 ZIPs bundle that art back in so end users get a complete mod.
 
-This folder is a snapshot of the mod at release. Every change here sits on top of
-the last public Terra Mirabilis release (**2.21.3**, upstream commit `e5f2c60`), so
-diffing it against upstream 2.21.3 shows exactly what the 2026 update changes.
-(The full layered development history — pristine 2.21.3 baseline → prior gameplay
-tweaks → individual bug-fix commits — is kept in the maintainer's separate working
-repo.)
+Development happens directly in this folder. Every change sits on top of the last
+public Terra Mirabilis release (**2.21.3**, upstream commit `e5f2c60`), so diffing
+against upstream 2.21.3 shows exactly what the 2026 update changes. (The pristine
+2.21.3 baseline and the detailed pre-release fix history are preserved by the
+maintainer in an offline archive.)
 
 Development loop (Windows / PowerShell):
 

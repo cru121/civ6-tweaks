@@ -26,7 +26,7 @@ if (-not (Test-Path $Target)) {
 
 # Files that live in the repo but must NOT be copied into the mod
 $skip = @('.gitignore', '.gitattributes', '.gitattributes.txt', 'README.md', 'deploy.ps1',
-          'NOTICE', 'ISSUES.md', 'WONDER_TYPES.md', 'package.ps1')
+          'NOTICE', 'ISSUES.md', 'WONDER_TYPES.md', 'package.ps1', 'publish.ps1')
 
 Push-Location $repo
 try {

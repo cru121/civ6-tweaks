@@ -6,3 +6,6 @@ Platforms/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Release ZIPs built by package.ps1
+dist/

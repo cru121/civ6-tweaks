@@ -92,6 +92,17 @@ otherwise try to load both.
 
 ---
 
+## Player documentation
+
+A browsable web reference for every natural wonder — yields, special effect,
+placement rules, flavour and history — is generated from this mod's data and
+published as a separate GitHub Pages site:
+
+> **https://cru121.github.io/terra-mirabilis-docs/**
+> · source: [`cru121/terra-mirabilis-docs`](https://github.com/cru121/terra-mirabilis-docs)
+
+---
+
 ## For contributors / building from source
 
 This repository tracks only the **editable logic/text** of the mod (SQL + the

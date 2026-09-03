@@ -30,7 +30,7 @@ if (-not (Test-Path $ArtSource)) {
 
 # Repo files that must NOT ship inside the mod (dev tooling / trackers).
 $skip = @('.gitignore', '.gitattributes', '.gitattributes.txt', 'deploy.ps1', 'package.ps1',
-          'ISSUES.md', 'WONDER_TYPES.md')
+          'publish.ps1', 'ISSUES.md', 'WONDER_TYPES.md')
 # NOTE: README.md and NOTICE are intentionally shipped (info + attribution).
 
 $stageRoot = Join-Path $env:TEMP ("tm_pkg_" + [guid]::NewGuid().ToString('N'))
@@ -72,11 +72,23 @@ try {
         Write-Warning "No art files found under $ArtSource (expected Platforms\**). The ZIP will have no models/textures."
     }
 
-    # 3) zip it
+    # 3) zip it -- build entries by hand so paths use FORWARD slashes (spec-
+    #    compliant; Windows' Compress-Archive writes backslashes, which breaks
+    #    extraction on macOS/Linux, and this mod ships MacOS art).
     $outDir = Split-Path $Out -Parent
     if ($outDir -and -not (Test-Path $outDir)) { New-Item -ItemType Directory -Force -Path $outDir | Out-Null }
     if (Test-Path $Out) { Remove-Item -LiteralPath $Out -Force }
-    Compress-Archive -Path $stage -DestinationPath $Out -CompressionLevel Optimal
+    Add-Type -AssemblyName System.IO.Compression, System.IO.Compression.FileSystem
+    $zip = [System.IO.Compression.ZipFile]::Open($Out, 'Create')
+    try {
+        $prefixLen = $stageRoot.TrimEnd('\').Length + 1
+        foreach ($item in (Get-ChildItem -LiteralPath $stage -Recurse -File)) {
+            $arc = $item.FullName.Substring($prefixLen) -replace '\\', '/'
+            [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile(
+                $zip, $item.FullName, $arc,
+                [System.IO.Compression.CompressionLevel]::Optimal) | Out-Null
+        }
+    } finally { $zip.Dispose() }
 
     $sizeMB = [math]::Round((Get-Item $Out).Length / 1MB, 1)
     Write-Host ""

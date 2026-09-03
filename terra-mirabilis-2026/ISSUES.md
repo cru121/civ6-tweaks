@@ -40,6 +40,7 @@ mod incompatibilities, or out-of-scope requests. Each is categorized below.
 | [I14](#i14) | Pamukkale still gives adjacency to Campus/Theater/Commercial Hub | BUG / MAYBE-UE | new | — |
 | [I15](#i15) | Resourceful 2 compatibility (LoadOrder) | COMPAT | new | — |
 | [I16](#i16) | Ubsunur Hollow: Great General Inspiration never fires | BUG (found) | won't-fix unless redesigned | — |
+| [I17](#i17) | Fountain of Youth: description text drops the "+3 Science" yield label | BUG (text) | fixed | this commit |
 
 ---
 
@@ -434,3 +435,24 @@ when a Great Person is earned.
 3. Grant the Inspiration via a **Lua** script hooked to the Great-General-earned event.
 
 **Status: won't-fix unless redesigned** — parked pending an owner decision.
+
+<a id="i17"></a>
+### I17 — Fountain of Youth: description drops the "+3 Science" yield label
+**Category:** BUG (text) · **Status:** fixed
+**File:** `Core/Localisation/TM_Localisation.sql` (line ~156)
+
+**Symptom (found, not user-reported):** the wonder's description reads
+"Yields +3 [ICON_SCIENCE] **and** +2 [ICON_FAITH] Faith." — the `+3` is missing its
+"Science" word after the icon, so in-game it shows "+3 🔬 and +2 Faith" and any
+icon-stripped context (e.g. the plain-text pedia / the docs site) shows the bare
+"+3 and +2 Faith."
+
+**Cause:** typo in `LOC_TM_FEATURE_FOUNTAIN_OF_YOUTH_DESCRIPTION`. The structured
+yields in `TM_FeatureYields` are correct (`YIELD_SCIENCE 3`, `YIELD_FAITH 2`); only
+the localised string is wrong.
+
+**Fix (one line):**
+```
+"One tile natural wonder. Provides fresh water. Yields +3 [ICON_SCIENCE] Science and +2 [ICON_FAITH] Faith."
+```
+(add the missing `Science` after `[ICON_SCIENCE]`). **Applied.**

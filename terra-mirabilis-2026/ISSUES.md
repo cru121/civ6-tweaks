@@ -39,7 +39,7 @@ mod incompatibilities, or out-of-scope requests. Each is categorized below.
 | [I13](#i13) | NW_ADJACENCY setting ignored (AND/OR precedence) | FIXED-UPSTREAM | verified | e5f2c60 (upstream) |
 | [I14](#i14) | Pamukkale still gives adjacency to Campus/Theater/Commercial Hub | BUG / MAYBE-UE | new | — |
 | [I15](#i15) | Resourceful 2 compatibility (LoadOrder) | COMPAT | new | — |
-| [I16](#i16) | Ubsunur Hollow: Great General Inspiration never fires | BUG (found) | won't-fix unless redesigned | — |
+| [I16](#i16) | Ubsunur Hollow: Great General Inspiration never fires | BUG (found) | fixed via Lua (verified in-game) | this commit |
 | [I17](#i17) | Fountain of Youth: description text drops the "+3 Science" yield label | BUG (text) | fixed | this commit |
 
 ---
@@ -434,7 +434,31 @@ when a Great Person is earned.
 2. Redesign Ubsunur to grant a **Eureka** instead (`TechBoost=true`) and reword its text.
 3. Grant the Inspiration via a **Lua** script hooked to the Great-General-earned event.
 
-**Status: won't-fix unless redesigned** — parked pending an owner decision.
+**Update (this commit): option 3 prototyped.** Sukritact's *Civ VI Modding Knowledge
+Base* confirmed the required primitives exist and are gameplay-script-callable:
+`Events.UnitGreatPersonCreated(playerID, unitID, gpClassID, gpIndividualID)` as the
+hook, and `PlayerCulture:TriggerBoost` (script:true) to grant a civic Inspiration —
+there is no SQL equivalent, which is why the data effect never could work.
+
+**Prototype (files):**
+- `Core/Utilities/Scripts/TM_UbsunurHollow.lua` — on a Great **General** earned, if the
+  earner owns the Ubsunur Hollow tile, grants a free Inspiration (prefers the
+  currently-researching civic, else the first eligible boostable civic). Honors
+  `NW_EFFECTS`; no-ops if the wonder/class isn't on the map. Defensive/pcall-guarded.
+- `NaturalWondersMod.modinfo` — new `AddGameplayScripts` action `TM_GameplayScripts`
+  (LoadOrder 60) + Files-manifest entry. **This is the mod's first gameplay script**
+  (previously only the map-gen Lua existed).
+- `TM_Ubsunur_Hollow.sql` — inline note; the dead `MODTYPE_TM_GP_BOOST` modifier is
+  left in place (harmless) until the Lua is verified.
+
+**Assumptions — now confirmed in-game (owner test):**
+- `PlayerCulture:TriggerBoost(iCivic)` takes the civic index and grants that civic's
+  Inspiration (KB documented it as script-callable but listed no args).
+- `Events.UnitGreatPersonCreated` fires in the gameplay-script context.
+
+**Status: fixed via Lua, verified in-game.** The dead `MODTYPE_TM_GP_BOOST` modifier in
+`TM_Ubsunur_Hollow.sql` is left in place (harmless); dropping it is a deferred cosmetic
+cleanup so the shipped code matches what was tested.
 
 <a id="i17"></a>
 ### I17 — Fountain of Youth: description drops the "+3 Science" yield label

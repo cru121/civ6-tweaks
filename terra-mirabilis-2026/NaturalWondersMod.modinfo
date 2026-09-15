@@ -259,6 +259,12 @@
       <Criteria>XP2</Criteria>
       <File>Core/Natural Disasters/TM_NaturalDisasters.sql</File>
     </UpdateDatabase>
+    <AddGameplayScripts id="TM_GameplayScripts">
+      <Properties>
+        <LoadOrder>60</LoadOrder>
+      </Properties>
+      <File>Core/Utilities/Scripts/TM_UbsunurHollow.lua</File>
+    </AddGameplayScripts>
   </InGameActions>
   <Files>
     <File>ArtDefs/Clutter.artdef</File>
@@ -342,6 +348,7 @@
     <File>Core/Natural Wonders/XP2/TM_Vesuvius.sql</File>
     <File>Core/User Settings/TM_UserSettings.sql</File>
     <File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File>
+    <File>Core/Utilities/Scripts/TM_UbsunurHollow.lua</File>
     <File>NaturalWondersMod.dep</File>
     <File>Platforms/MacOS/BLPs/environment/clutter.blp</File>
     <File>Platforms/MacOS/BLPs/landmarks/tilebases.blp</File>

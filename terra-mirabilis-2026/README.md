@@ -36,6 +36,10 @@ picks up long-standing bugs reported on the Workshop and fixes them.
 - **Lençóis Maranhenses** — its yields now apply in the base game, not only with
   the Gathering Storm expansion.
 - **Mount Roraima** — fixed an "Onwed" → "Owned" typo in its effect text.
+- **Ubsunur Hollow** — earning a Great General now grants the promised free
+  Inspiration. The original data-only effect could only ever grant a *Eureka*
+  (Civ VI has no data effect that gives a civic boost when a Great Person is
+  earned), so it's delivered by a small gameplay script instead.
 
 ### New: natural-wonder *type* interactions
 Many wonders visually **are** a terrain type (a marsh, a reef, a geyser field, a
@@ -57,9 +61,6 @@ skipped them. This update wires them up:
   mod data.
 - **Cliffs of Dover**'s Harbor bonus keys off adjacent hills (the engine has no
   "adjacent to a cliff" adjacency) — kept as the original author intended.
-- **Ubsunur Hollow**'s advertised "Inspiration on earning a Great General" can't
-  be delivered: Civ VI has no effect that grants a civic boost when a Great
-  Person is earned. Left as a documented limitation.
 
 A few reports (specialty-district base-yield, Wulingyuan culture, Pamukkale
 adjacency) couldn't be reproduced from the code and are pending in-game repro.
@@ -106,7 +107,7 @@ published as a separate GitHub Pages site:
 ## For contributors / building from source
 
 This repository tracks only the **editable logic/text** of the mod (SQL + the
-Lua wonder generator + art *definitions*). The ~420 MB of **compiled art**
+Lua scripts — the wonder generator and gameplay scripts — + art *definitions*). The ~420 MB of **compiled art**
 (`Platforms/**`, `*.blp`) is git-ignored — it never changes when fixing SQL, so
 it lives only in the packaged release and in the game's Mods folder. Release
 ZIPs bundle that art back in so end users get a complete mod.

@@ -6,6 +6,13 @@
 -----------------------------------------------
 -- Effects for Natural Wonders
 -- Effect: Any Civilization that owns this tile receives a free Inspiration upon earning a Great General.
+--
+-- NOTE (ISSUES.md I16): the MODTYPE_TM_GP_BOOST effect below is Eureka-only and
+-- CANNOT grant an Inspiration (no CivicBoost arg exists), so it does nothing.
+-- The actual Inspiration is granted by the gameplay script
+-- Core/Utilities/Scripts/TM_UbsunurHollow.lua (verified in-game). The dead
+-- modifier is intentionally left in place (harmless); removing it is a separate,
+-- purely-cosmetic cleanup, deferred so the shipped code matches the tested code.
 -----------------------------------------------
 
 UPDATE	Features
